@@ -1,0 +1,18 @@
+body{
+    direction: rtl;
+}
+
+.container { 
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.CharBorder {
+    font-size: 120px;
+    border: 2px solid;
+    width: -moz-fit-content;    
+    width: fit-content;
+    padding: 5px;
+    margin-bottom: 1em;
+}
